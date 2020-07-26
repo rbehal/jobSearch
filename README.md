@@ -1,6 +1,6 @@
 # jobSearch
 
-I became extremely tired of the job search process. Particularly, I hated that I had to go to a bunch of different websites, set my search settings repeatedly, and see the same jobs over and over again. Additionally, I hated going through 10 clicks just to find a link to apply to the job. As a result, I made a program that solves all of these issues. 
+I became extremely tired of the job search process. Particularly, I hated that I had to go to a bunch of different websites, set my search settings repeatedly, and see the same jobs over and over again. The worst was going through 10 clicks (filled with ads) just to find a link to apply to the job. As a result, I made a program that solves all of these issues. 
 
 Python web scraper to compile multiple job search details from around the web into a single Excel document. Simply enter a search term (or multiple separated by a semicolon) and press enter. An Excel file that cleanly displays all of the job details and direct-to-apply links if available will be created.
 
