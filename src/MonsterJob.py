@@ -80,11 +80,11 @@ class MonsterJob:
                 self.description += element.text + chr(10)           
             
     def setApply(self):
-        if (self.detailedSoup is None or ("applyOnlineUrl" in self.detailedSoup.text) is False):
+        if (self.detailedSoup is None or ("applyOnlineUrl" in str(self.detailedSoup.text)) is False):
             self.applyLink = None
             return
         else:
-            applyLinkHTML = self.detailedSoup.text
+            applyLinkHTML = str(self.detailedSoup.text)
     
         applyLinkRawPattern = re.compile(r"^(.+?)applyOnlineUrl\":\"(.+?)\",\"applyType(.+?)$", re.MULTILINE | re.DOTALL) # Regex for where the URL is stored
 
