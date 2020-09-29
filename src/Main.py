@@ -9,9 +9,20 @@ searchTerms = searchTerms.split(";")
 
 jobs = []
 for searchTerm in searchTerms:
-    indeedJobs =  getIndeedJobs(searchTerm)
-    monsterJobs = getMonsterJobs(searchTerm)
-    linkedInJobs = getLinkedInJobs(searchTerm)
+    # TODO: Change to properly handle errors per job or something
+    try:
+        indeedJobs =  getIndeedJobs(searchTerm)
+    except:
+        indeedJobs = []
+    try:
+        monsterJobs = getMonsterJobs(searchTerm)
+    except:
+        monsterJobs = []
+    try:
+        linkedInJobs = getLinkedInJobs(searchTerm)
+    except:
+        linkedInJobs = []
+
     jobs.extend(indeedJobs + monsterJobs + linkedInJobs)
 
 jobs = removeSimilarJobs(jobs)

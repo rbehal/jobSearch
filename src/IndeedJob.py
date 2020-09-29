@@ -89,6 +89,7 @@ def getIndeedJobs(searchTerm):
             filteredTerm += "+"
     
     soup = createSoup("https://ca.indeed.com/jobs?q=" + filteredTerm + "&l=Canada&sort=date")
+    jobIDsHTML = None
 
     for script in soup.find_all("script", {"src":False}):
         if ("jobKeysWithInfo['" in str(script)): # This is where jobIDs are stored
