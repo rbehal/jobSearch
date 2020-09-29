@@ -2,3 +2,8 @@
 .pyc
 src/__pycache__/
 .vscode/settings.json
+src/vbaProject (Laptop).bin
+src/vbaProject.bin
+src/__pycache__/HelperFuncs.cpython-38.pyc
+src/__pycache__/LinkedInJob.cpython-38.pyc
+src/__pycache__/MonsterJob.cpython-38.pyc
