@@ -11,7 +11,7 @@ bs4 == 0.0.0
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\.ipynb_checkpoints\jobGrab-checkpoint.ipynb: 3
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\jobGrab.ipynb: 3
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\src\HelperFuncs.py: 2
-lxml == 4.5.1
+lxml == 4.6.2
 
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\.ipynb_checkpoints\jobGrab-checkpoint.ipynb: 386
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\jobGrab.ipynb: 386
