@@ -26,7 +26,7 @@ regex == 2020.6.8
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\.ipynb_checkpoints\jobGrab-checkpoint.ipynb: 4
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\jobGrab.ipynb: 4
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\src\HelperFuncs.py: 3
-requests == 2.23.0
+requests == 2.31.0
 
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\.ipynb_checkpoints\jobGrab-checkpoint.ipynb: 384,385
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\jobGrab.ipynb: 384,385
