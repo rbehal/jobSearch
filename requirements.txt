@@ -16,7 +16,7 @@ lxml == 4.5.1
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\.ipynb_checkpoints\jobGrab-checkpoint.ipynb: 386
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\jobGrab.ipynb: 386
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\src\HelperFuncs.py: 15
-nltk == 3.5
+nltk == 3.6.6
 
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\.ipynb_checkpoints\jobGrab-checkpoint.ipynb: 7
 # C:\Users\Rahul\OneDrive\Documents\Programming\jobSearch\jobGrab.ipynb: 7
